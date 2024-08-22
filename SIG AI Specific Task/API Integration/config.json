@@ -1,0 +1,31 @@
+{
+    "rapid_api_urls": {
+        "city": "https://open-weather13.p.rapidapi.com/city/{c}/EN",
+        "latlon": "https://open-weather13.p.rapidapi.com/city/latlon/{lat}/{lon}",
+        "5dayForecast": "https://open-weather13.p.rapidapi.com/city/fivedaysforcast/{lat}/{lon}"
+    },
+    "rapid_api_headers": {
+        "x-rapidapi-key": "74b04599fdmshd38f07575e1dfa0p10df5fjsn61bc1d12020b",
+        "x-rapidapi-host": "open-weather13.p.rapidapi.com"
+    },
+    "icon_mapping": {
+        "01d": "Clear sky (day)",
+        "01n": "Clear sky (night)",
+        "02d": "Few clouds (day)",
+        "02n": "Few clouds (night)",
+        "03d": "Scattered clouds (day)",
+        "03n": "Scattered clouds (night)",
+        "04d": "Broken clouds (day)",
+        "04n": "Broken clouds (night)",
+        "09d": "Shower rain (day)",
+        "09n": "Shower rain (night)",
+        "10d": "Rain (day)",
+        "10n": "Rain (night)",
+        "11d": "Thunderstorm (day)",
+        "11n": "Thunderstorm (night)",
+        "13d": "Snow (day)",
+        "13n": "Snow (night)",
+        "50d": "Mist (day)",
+        "50n": "Mist (night)"
+    }
+}
